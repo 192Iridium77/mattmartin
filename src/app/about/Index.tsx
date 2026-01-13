@@ -1,7 +1,8 @@
 import React from "react";
 import Projects from "./Projects";
 import { Hero } from "./Hero";
-import Companies from "./Companies";
+import Apps from "./Apps";
+import Games from "./Games";
 import { AboutSection } from "./AboutSection";
 
 export default function About() {
@@ -9,7 +10,8 @@ export default function About() {
     <>
       <Hero />
       <div className="container mt-12">
-        <Companies />
+        <Apps />
+        <Games />
         <Projects limit={3} />
         <AboutSection />
       </div>
