@@ -7,11 +7,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "How to Build Apps with Parallel Agents | Matt Martin",
   description:
-    "Learn how to escape the employment trap by building your own apps. A practical guide to identifying opportunities, building products, and leveraging your network.",
+    "A practical guide to building your own apps alongside your career. Learn how to identify opportunities, build products, and leverage your network.",
   openGraph: {
     title: "How to Build Apps with Parallel Agents",
     description:
-      "Learn how to escape the employment trap by building your own apps. A practical guide to identifying opportunities, building products, and leveraging your network.",
+      "A practical guide to building your own apps alongside your career. Learn how to identify opportunities, build products, and leverage your network.",
   },
 };
 
@@ -23,26 +23,26 @@ export default function HowToBuildAppsPage() {
     >
       <BlogSection title="Why">
         <p>
-          When you are employed, your pay is capped at a stable rate. In
-          exchange for protecting you from business shortfalls, you do not get
-          any of the upside when an app starts to make $100k per month.
+          Building your own products alongside your career offers unique
+          opportunities. While employment provides stability and security,
+          building apps allows you to create additional income streams and
+          potentially scale beyond a fixed salary.
         </p>
         <p>
-          Taxation rules do not favour employees. With a business there are many
-          tricks you can use to legally minimise the tax that you pay. As an
-          employee though, the most you can do is put more money into your Super
-          (for use in 30 years time, even if it's worth more to you right now),
-          or novated lease a car to reduce your taxable income.
+          There are also financial benefits to running a business. Business
+          structures offer more flexibility for tax planning and deductions
+          compared to being solely an employee. This can help you keep more of
+          what you earn.
         </p>
         <p>
-          Employment contracts affect your freedom. As a business owner you
-          could travel the world nomadically, earn globally, and live wherever
-          you want. As an employee, you are lucky if you're allowed to work
-          globally at all.
+          Side projects also offer flexibility in how and where you work. You
+          can build products that serve global markets, work on your own
+          schedule, and potentially create location independence.
         </p>
         <p>
-          To escape this trap, it takes a lot of time investment. Don't quit
-          your day job, just start building your passion projects outside of it.
+          The key is to start small and build alongside your existing career.
+          Don't quit your day job—instead, invest time outside of work building
+          your passion projects.
         </p>
       </BlogSection>
 

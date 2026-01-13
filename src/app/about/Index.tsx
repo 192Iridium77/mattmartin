@@ -17,7 +17,7 @@ export default function About() {
           </h2>
           <BlogPreview
             title="How to Build Apps with Parallel Agents"
-            description="Learn how to escape the employment trap by building your own apps. A practical guide to identifying opportunities, building products, and leveraging your network."
+            description="A practical guide to building your own apps alongside your career. Learn how to identify opportunities, build products, and leverage your network."
             slug="how-to-build-apps-with-parallel-agents"
             date="January 2025"
           />
