@@ -2,8 +2,9 @@ import React from "react";
 
 export const AboutSection = () => {
   return (
-    <section className="container py-12 md:py-16 px-4 md:px-8">
-      <div className="max-w-3xl mx-auto">
+    <div id="about" className="py-8">
+      <h2 className="text-xl flex justify-center">About</h2>
+      <div className="max-w-3xl mx-auto mt-8 px-4 md:px-8">
         <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
           Matt Martin is an independent developer and technologist exploring the intersection of software, design, and creative tools.
         </p>
@@ -17,6 +18,6 @@ export const AboutSection = () => {
           Through personal projects and ongoing experiments, Matt documents what he learns while turning ideas into working software.
         </p>
       </div>
-    </section>
+    </div>
   );
 };

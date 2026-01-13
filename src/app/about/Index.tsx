@@ -8,9 +8,9 @@ export default function About() {
   return (
     <>
       <Hero />
-      <AboutSection />
       <div className="container mt-12">
         <Companies />
+        <AboutSection />
         <Projects limit={3} />
       </div>
     </>
