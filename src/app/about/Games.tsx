@@ -41,18 +41,11 @@ const CompanyCard = ({
   );
 };
 
-const Companies = () => {
+const Games = () => {
   return (
-    <div id="companies" className="py-8">
-      <h2 className="text-xl flex justify-center">Companies</h2>
+    <div id="games" className="py-8">
+      <h2 className="text-xl flex justify-center">Games</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-        <CompanyCard
-          href="https://www.selfpsy.com/"
-          imageUrl="/images/selfpsy.png"
-          alt="Selfpsy"
-          title="Selfpsy"
-          description="Selfpsy is a Big Five personality assessment suite that helps you understand and develop your psychological traits with a gamified AI journal that tracks your growth, emotional states and provides deep psychological insights into your unconscious mind."
-        ></CompanyCard>
         <CompanyCard
           href="https://aethercraft.online/"
           imageUrl="/images/aethercraft.png"
@@ -65,4 +58,5 @@ const Companies = () => {
   );
 };
 
-export default Companies;
+export default Games;
+

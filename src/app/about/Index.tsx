@@ -1,7 +1,9 @@
 import React from "react";
 import Projects from "./Projects";
 import { Hero } from "./Hero";
-import Companies from "./Companies";
+import Apps from "./Apps";
+import Games from "./Games";
+import { AboutSection } from "./AboutSection";
 import BlogPreview from "../blog/BlogPreview";
 
 export default function About() {
@@ -9,8 +11,7 @@ export default function About() {
     <>
       <Hero />
       <div className="container mt-12">
-        <Companies />
-        <Projects limit={3} />
+        <Apps />
         <section className="mt-16 mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900 dark:text-gray-100">
             Blog
@@ -22,6 +23,9 @@ export default function About() {
             date="January 2025"
           />
         </section>
+        <Projects limit={3} />
+        <Games />
+        <AboutSection />
       </div>
     </>
   );

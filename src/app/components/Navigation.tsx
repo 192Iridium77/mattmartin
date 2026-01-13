@@ -23,8 +23,11 @@ function Navigation() {
           </Link>
         </div>
         <div className="flex items-center gap-2 md:gap-6 text-xs md:text-base">
-          <Link href="/companies" className="text-white hover:text-gray-300">
-            Companies
+          <Link href="/apps" className="text-white hover:text-gray-300">
+            Apps
+          </Link>
+          <Link href="/games" className="text-white hover:text-gray-300">
+            Games
           </Link>
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects
