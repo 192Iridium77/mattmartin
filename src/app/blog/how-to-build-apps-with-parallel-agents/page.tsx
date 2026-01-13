@@ -7,11 +7,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "How to Build Apps with Parallel Agents | Matt Martin",
   description:
-    "A practical guide to building your own apps alongside your career. Learn how to identify opportunities, build products, and leverage your network.",
+    "Building products alongside a full-time job is one of the most asymmetric bets you can make. Learn how to build in parallel, keep multiple streams moving, and create momentum that survives real life.",
   openGraph: {
     title: "How to Build Apps with Parallel Agents",
     description:
-      "A practical guide to building your own apps alongside your career. Learn how to identify opportunities, build products, and leverage your network.",
+      "Building products alongside a full-time job is one of the most asymmetric bets you can make. Learn how to build in parallel, keep multiple streams moving, and create momentum that survives real life.",
   },
 };
 
@@ -21,79 +21,164 @@ export default function HowToBuildAppsPage() {
       title="How to Build Apps with Parallel Agents"
       date="January 2025"
     >
-      <BlogSection title="Why">
+      <BlogSection title="Why Build Apps Alongside Your Career">
         <p>
-          Building your own products alongside your career offers unique
-          opportunities. While employment provides stability and security,
-          building apps allows you to create additional income streams and
-          potentially scale beyond a fixed salary.
+          Building products alongside a full-time job is one of the most
+          asymmetric bets you can make.
         </p>
         <p>
-          There are also financial benefits to running a business. Business
-          structures offer more flexibility for tax planning and deductions
-          compared to being solely an employee. This can help you keep more of
-          what you earn.
+          Employment gives you stability: predictable income, benefits, and a
+          ceiling. Side projects give you optionality. They let you explore ideas
+          that can grow beyond your salary, fail cheaply, or quietly compound
+          while you sleep.
         </p>
         <p>
-          Side projects also offer flexibility in how and where you work. You
-          can build products that serve global markets, work on your own
-          schedule, and potentially create location independence.
+          There's also a structural advantage. Running even a small business
+          unlocks flexibility around expenses, tooling, and tax planning that
+          simply doesn't exist when all your income flows through payroll. This
+          isn't about loopholes—it's about playing the game that already exists.
         </p>
         <p>
-          The key is to start small and build alongside your existing career.
-          Don't quit your day job—instead, invest time outside of work building
-          your passion projects.
+          More importantly, side projects give you leverage over time and
+          location. You can build once and sell globally. You can work
+          asynchronously. You can create assets instead of trading hours.
         </p>
-      </BlogSection>
-
-      <BlogSection title="Step 1: Identify Your Interests">
         <p>
-          Identify what you are most interested in. What have you spent most of
-          your time working on in your life—just for the fun of it. For me this
-          has been psychometrics and video games.
+          The trick is not to "go all in." The trick is to build in parallel.
+          Keep the job. Reduce the risk. Let momentum, not motivation, decide
+          what grows.
         </p>
       </BlogSection>
 
-      <BlogSection title="Step 2: Find Proven Markets">
+      <BlogSection title="What 'Parallel Agents' Actually Means">
+        <p>You are not one thing when you build a product.</p>
         <p>
-          Find existing products in these areas that are already making money.
-          This means that they already have a proven market.
+          You are a designer, an engineer, a marketer, a support desk, a product
+          manager, and occasionally a customer. Traditionally, startups solve
+          this by hiring people. Solo builders solve it by context switching
+          until burnout.
+        </p>
+        <p>Parallel agents are the third option.</p>
+        <p>
+          Some agents are you, deliberately time-boxed into roles. Others are AI
+          tools acting as accelerators: generating drafts, validating
+          assumptions, scaffolding code, or summarising feedback. The goal is
+          not automation for its own sake—it's keeping multiple streams moving
+          forward at once without waiting for "perfect focus."
+        </p>
+        <p>The rest of this post is about setting up those streams.</p>
+      </BlogSection>
+
+      <BlogSection title="Step 1: Identify Your Obsessions (Not Just Your Skills)">
+        <p>Start with what you keep returning to when no one is paying you.</p>
+        <p>
+          Not what you're good at. Not what sounds impressive. What you've
+          circled back to for years out of curiosity or joy.
+        </p>
+        <p>
+          For me, that's psychometrics and video games—systems that measure
+          humans, and systems that let humans play with rules. That intersection
+          gives me energy even when progress is slow, which matters more than raw
+          talent.
+        </p>
+        <p>
+          This step filters ideas by stamina. If you're going to build at night,
+          on weekends, or between life obligations, the idea has to survive
+          boredom.
         </p>
       </BlogSection>
 
-      <BlogSection title="Step 3: Build Your Version">
+      <BlogSection title="Step 2: Find Markets That Already Spend Money">
+        <p>Do not start by inventing demand.</p>
         <p>
-          Copy them. Don't worry about copyright infringement—when you do this
-          you will naturally make it your own unique product with its own quirks
-          and taste. Start writing down a plan to build each feature one at a
-          time.
+          Look for products in your interest area that already make money.
+          Subscriptions, SaaS tools, niche marketplaces—anything with customers
+          who have pulled out their credit cards voluntarily.
         </p>
-        <p className="font-semibold mt-6 mb-3 text-gray-900 dark:text-gray-100">You will need:</p>
+        <p>This isn't laziness. It's respect for reality.</p>
+        <p>A proven market answers three questions for free:</p>
         <BlogList
           items={[
-            "Designs",
-            "Web UI. React with Next.js",
-            "Database. Connect Next to Neon for a free Postgres database",
-            "Authentication. Next gives you this for free",
-            "Payments Gateway. Integrate with Stripe",
+            "Someone wants this",
+            "They want it badly enough to pay",
+            "They can be reached somehow",
           ]}
         />
-        <p className="mt-6">
-          Don't underestimate design. People can immediately tell if you're
-          using AI to do your design, and AI does not even follow basic design
-          principles.
+        <p>You're not copying success—you're borrowing signal.</p>
+      </BlogSection>
+
+      <BlogSection title="Step 3: Build Your Version (Taste Is the Differentiator)">
+        <p>Now you copy—but carefully.</p>
+        <p>
+          You are copying structure, not assets. Features, flows, pricing logic,
+          onboarding patterns. You are not copying branding, copy, or
+          proprietary data.
+        </p>
+        <p>
+          As you recreate the product piece by piece, you will naturally inject
+          taste: different defaults, better explanations, sharper constraints, or
+          a clearer audience. That's how differentiation actually happens in
+          practice, not through brainstormed "unique value propositions."
+        </p>
+        <p>
+          Build one feature at a time. Write the plan down. Reduce ambiguity
+          until the next step is obvious.
+        </p>
+        <p className="font-semibold mt-6 mb-3 text-gray-900 dark:text-gray-100">
+          A practical baseline stack looks like this:
+        </p>
+        <BlogList
+          items={[
+            "Frontend: React with Next.js",
+            "Database: Postgres (Neon is an easy free start)",
+            "Auth: Next's built-in patterns or a lightweight provider",
+            "Payments: Stripe",
+          ]}
+        />
+        <p>
+          Do not treat design as an afterthought. Users can tell immediately when
+          design is careless or AI-generated without taste. AI is a tool, not a
+          substitute for understanding hierarchy, spacing, and intent. Bad
+          design kills trust faster than bugs.
         </p>
       </BlogSection>
 
-      <BlogSection title="Step 4: Leverage Your Network">
+      <BlogSection title="Step 4: Treat Distribution as a First-Class Problem">
         <p>
-          Start warm reachouts to people you know. Do not sell anyone, just
-          reach out to them like a friend. You need to tap into your network
-          because every person you know, knows hundreds of people. Your network
-          extends much further than you'd realise.
+          Most side projects fail quietly because no one ever sees them.
+        </p>
+        <p>
+          Your first users should not be strangers. They should be people who
+          already trust you. Reach out warmly. No pitching. No "I built a
+          thing" spam. Just conversations.
+        </p>
+        <p>
+          Every person you know is a gateway to hundreds you don't. Networks
+          compound in ways code does not.
+        </p>
+        <p>
+          If this feels uncomfortable, that's a signal—not a stop sign.
+        </p>
+        <p>
+          As a rule of thumb, at least half your time should be spent on
+          outreach, feedback, and distribution. Building is only half the job.
+          Visibility is the other half, and it's the one engineers love to
+          ignore.
+        </p>
+      </BlogSection>
+
+      <BlogSection title="Closing Thought">
+        <p>
+          Building apps with parallel agents is less about speed and more about
+          flow. Keep multiple small bets alive. Let tools carry cognitive load.
+          Let curiosity decide direction.
+        </p>
+        <p>
+          You're not trying to build the next unicorn. You're trying to build
+          momentum that survives real life.
         </p>
         <p className="font-semibold text-gray-900 dark:text-gray-100">
-          50% of your time should be spent doing outreach.
+          Momentum, once established, is stubborn in the best possible way.
         </p>
       </BlogSection>
     </BlogPost>

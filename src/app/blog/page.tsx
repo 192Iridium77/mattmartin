@@ -16,7 +16,7 @@ export default function BlogPage() {
       <div className="max-w-3xl">
         <BlogPreview
           title="How to Build Apps with Parallel Agents"
-          description="A practical guide to building your own apps alongside your career. Learn how to identify opportunities, build products, and leverage your network."
+          description="Building products alongside a full-time job is one of the most asymmetric bets you can make. Learn how to build in parallel, keep multiple streams moving, and create momentum that survives real life."
           slug="how-to-build-apps-with-parallel-agents"
           date="January 2025"
         />

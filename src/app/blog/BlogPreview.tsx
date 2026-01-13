@@ -20,7 +20,7 @@ export default function BlogPreview({
       className="block group hover:opacity-80 transition-opacity"
     >
       <article className="border-b border-gray-200 dark:border-gray-700 pb-6 mb-6">
-        <h2 className="text-2xl md:text-3xl font-bold mb-3 text-gray-900 dark:text-gray-100 group-hover:text-primary-200 transition-colors">
+        <h2 className="text-2xl md:text-3xl font-bold mb-3 text-gray-900 dark:text-gray-100">
           {title}
         </h2>
         {date && (
@@ -28,9 +28,12 @@ export default function BlogPreview({
             {date}
           </p>
         )}
-        <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
           {description}
         </p>
+        <span className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors">
+          Read more →
+        </span>
       </article>
     </Link>
   );
