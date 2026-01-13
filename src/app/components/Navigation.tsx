@@ -29,6 +29,9 @@ function Navigation() {
           <Link href="/projects" className="text-white hover:text-gray-300">
             Projects
           </Link>
+          <Link href="/blog" className="text-white hover:text-gray-300">
+            Blog
+          </Link>
           <Link href="/books" className="text-white hover:text-gray-300">
             Books
           </Link>
