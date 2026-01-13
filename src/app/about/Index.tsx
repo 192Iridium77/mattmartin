@@ -10,8 +10,8 @@ export default function About() {
       <Hero />
       <div className="container mt-12">
         <Companies />
-        <AboutSection />
         <Projects limit={3} />
+        <AboutSection />
       </div>
     </>
   );
